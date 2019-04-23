@@ -1,0 +1,13 @@
+entity Artikel {
+	artikelBezeichnung String
+    preis Double
+}
+
+entity Lieferant {
+	lieferantenName String
+}
+
+relationship OneToMany {
+	Lieferant{lieferantenName} to Artikel
+}
+

@@ -1,0 +1,26 @@
+{
+    "name": "Lieferant",
+    "fields": [
+        {
+            "fieldName": "lieferantenName",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "artikel",
+            "otherEntityRelationshipName": "lieferant",
+            "relationshipName": "lieferantenName"
+        }
+    ],
+    "changelogDate": "20190422130134",
+    "entityTableName": "lieferant",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

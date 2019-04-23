@@ -1,0 +1,23 @@
+{
+    "jHipsterHouseH2App": {
+        "artikel": {
+            "home": {
+                "title": "Artikels",
+                "createLabel": "Create a new Artikel",
+                "createOrEditLabel": "Create or edit a Artikel"
+            },
+            "created": "A new Artikel is created with identifier {{ param }}",
+            "updated": "A Artikel is updated with identifier {{ param }}",
+            "deleted": "A Artikel is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Artikel {{ id }}?"
+            },
+            "detail": {
+                "title": "Artikel"
+            },
+            "artikelBezeichnung": "Artikel Bezeichnung",
+            "preis": "Preis",
+            "lieferant": "Lieferant"
+        }
+    }
+}

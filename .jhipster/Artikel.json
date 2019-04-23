@@ -1,0 +1,30 @@
+{
+    "name": "Artikel",
+    "fields": [
+        {
+            "fieldName": "artikelBezeichnung",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "preis",
+            "fieldType": "Double"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipName": "lieferant",
+            "otherEntityName": "lieferant",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190422130133",
+    "entityTableName": "artikel",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
